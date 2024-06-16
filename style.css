@@ -253,7 +253,7 @@
  }
  
  .roda-pé {
-    background-color: black;
+    background-color: #214e2f;
     text-align: center;
  }
  
@@ -263,7 +263,7 @@
  }
  
  .lista-menu__item a {
-    color: #fffdfd;
+    color: #000000;
     text-decoration: none;
  }
  
@@ -290,31 +290,8 @@
  .lista-menu,
  .lista-menu__item {
     padding: 1em;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
  }
- 
- .CarrosselTitulo {
-    color: white;
-    background-color: #212121;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 1em 0 0.5em 0;
- }
- 
- .swiper-slide img {
-    width: 50%;
- }
- 
- .swiper-button-prev, 
- .swiper-button-next {
-    display: none;
- }
- 
- 
-    
-
 
  .frame {
     width: 90%;
