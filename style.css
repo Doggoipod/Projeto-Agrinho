@@ -367,3 +367,201 @@
       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
   }
   
+  #bloco{width:61vw;margin:5vh auto;}
+input{display:none;}
+.conteudo{width:30vw;height:50vh;border:1px #000000 solid;margin:5vh 0;overflow:hidden;position:relative;float:left;}
+
+.conteudo div{width:30vw;height:100vh;position:absolute;display:none;font-size:4em;text-align:center;font-weight:bold;color:#FFFFFF;line-height:50vh;}
+.conteudo div.i01{background-color:#336699;}
+.conteudo div.i02{background-color:#996633;}
+.conteudo div.i03{background-color:#669933;}
+.conteudo div.i04{background-color:#ececec;} 
+.conteudo div.i05{background-color:#000;} 
+.conteudo div.i06{background-color:#444;} 
+
+.setasE, .setasD{width:10vw;height:50vh;float:left; background-color:#ccc;margin:5vh 2.5vw;overflow:hidden;position:relative;}
+.setasE label, .setasD label{width:100%;height:100vh;font-size:4em;text-align:center;line-height:50vh;position:absolute;top:0;left:0;cursor:hand;cursor:pointer;display:none;}
+.bolinhas{width:8.5vw;margin:5vh auto;clear:both;position:relative;}
+.bolinhas label{background:#666;width:2vw;height:2vw;border-radius:51%;position:absolute;z-index:555;top:.3vw;cursor:hand;cursor:pointer;display:none;}
+.bolinhas div{background: #333;width:2.5vw;height:2.5vw;border-radius:51%;position:absolute;z-index:444;display:none;}
+
+.bolinhas label.bl01E,.bolinhas label.bl01D{left:.2vw;}
+.bolinhas label.bl02E,.bolinhas label.bl02D{left:3.2vw;}
+.bolinhas label.bl03E,.bolinhas label.bl03D{left:6.2vw;}
+.bolinhas label.bl04E,.bolinhas label.bl04D{left:9.2vw;} 
+.bolinhas label.bl05E,.bolinhas label.bl05D{left:12.2vw;} 
+.bolinhas label.bl06E,.bolinhas label.bl06D{left:15.2vw;} 
+
+
+.bolinhas div.bl01{left:0;}
+.bolinhas div.bl02{left:3vw;}
+.bolinhas div.bl03{left:6vw;}
+.bolinhas div.bl04{left:9vw;} 
+.bolinhas div.bl05{left:12vw;} 
+.bolinhas div.bl06{left:15vw;} 
+
+
+@keyframes entraE {from {left:-30vw;} to {left:0vw;}}
+@keyframes saiD {from {left:0;} to {left:30vw;}}
+@keyframes entraD {from {left:30vw;} to {left:0vw;}}
+@keyframes saiE {from {left:0;} to {left:-30vw;}}
+
+#i01E:checked ~ .conteudo .i01{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i01E:checked ~ .conteudo .i02{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+
+#i01D:checked ~ .conteudo .i01{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i01D:checked ~ .conteudo .i06{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;} 
+
+#i01D:checked ~ .setasE .lb06,  
+#i01E:checked ~ .setasE .lb06{display:block;}  
+
+#i01D:checked ~ .setasD .lb02,
+#i01E:checked ~ .setasD .lb02{display:block;}
+
+
+#i01D:checked ~ .bolinhas .bl01,
+#i01E:checked ~ .bolinhas .bl01,
+#i01D:checked ~ .bolinhas .bl02D,
+#i01E:checked ~ .bolinhas .bl02D,
+#i01D:checked ~ .bolinhas .bl03D,
+#i01E:checked ~ .bolinhas .bl03D,
+#i01D:checked ~ .bolinhas .bl04D,
+#i01E:checked ~ .bolinhas .bl04D,
+#i01D:checked ~ .bolinhas .bl05D,  
+#i01E:checked ~ .bolinhas .bl05D,
+#i01D:checked ~ .bolinhas .bl06E,
+#i01E:checked ~ .bolinhas .bl06E{display:block;}
+
+#i02E:checked ~ .conteudo .i02{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i02E:checked ~ .conteudo .i03{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+
+#i02D:checked ~ .conteudo .i02{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i02D:checked ~ .conteudo .i01{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;}
+
+#i02D:checked ~ .setasE .lb01,
+#i02E:checked ~ .setasE .lb01{display:block;}
+
+#i02D:checked ~ .setasD .lb03,
+#i02E:checked ~ .setasD .lb03{display:block;}
+
+
+#i02D:checked ~ .bolinhas .bl02,
+#i02E:checked ~ .bolinhas .bl02,
+#i02D:checked ~ .bolinhas .bl01E,
+#i02E:checked ~ .bolinhas .bl01E,
+#i02D:checked ~ .bolinhas .bl03D,
+#i02E:checked ~ .bolinhas .bl03D,
+#i02D:checked ~ .bolinhas .bl04D,
+#i02E:checked ~ .bolinhas .bl04D,
+#i02D:checked ~ .bolinhas .bl05D,  
+#i02E:checked ~ .bolinhas .bl05D,
+#i02D:checked ~ .bolinhas .bl06D,
+#i02E:checked ~ .bolinhas .bl06D{display:block;}
+
+
+#i03E:checked ~ .conteudo .i03{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i03E:checked ~ .conteudo .i04{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+
+
+#i03D:checked ~ .conteudo .i03{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i03D:checked ~ .conteudo .i02{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;}
+
+
+#i03D:checked ~ .setasE .lb02,
+#i03E:checked ~ .setasE .lb02{display:block;}
+
+
+#i03D:checked ~ .setasD .lb04,
+#i03E:checked ~ .setasD .lb04{display:block;}
+
+#i03D:checked ~ .bolinhas .bl03,
+#i03E:checked ~ .bolinhas .bl03,
+#i03D:checked ~ .bolinhas .bl01E,
+#i03E:checked ~ .bolinhas .bl01E,
+#i03D:checked ~ .bolinhas .bl02E,
+#i03E:checked ~ .bolinhas .bl02E,
+#i03D:checked ~ .bolinhas .bl04D,  
+#i03E:checked ~ .bolinhas .bl04D,
+#i03E:checked ~ .bolinhas .bl05D, 
+#i03D:checked ~ .bolinhas .bl05D,
+#i03D:checked ~ .bolinhas .bl06D,
+#i03E:checked ~ .bolinhas .bl06D{display:block;}
+
+
+#i04E:checked ~ .conteudo .i04{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i04E:checked ~ .conteudo .i05{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+
+
+#i04D:checked ~ .conteudo .i04{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i04D:checked ~ .conteudo .i03{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;} 
+
+
+#i04D:checked ~ .setasE .lb03,
+#i04E:checked ~ .setasE .lb03{display:block;}  
+#i04D:checked ~ .setasD .lb05,
+#i04E:checked ~ .setasD .lb05{display:block;}   
+
+#i04D:checked ~ .bolinhas .bl04,
+#i04E:checked ~ .bolinhas .bl04,
+#i04D:checked ~ .bolinhas .bl01E,
+#i04E:checked ~ .bolinhas .bl01E,
+#i04D:checked ~ .bolinhas .bl02E,
+#i04E:checked ~ .bolinhas .bl02E,
+#i04D:checked ~ .bolinhas .bl03E,
+#i04E:checked ~ .bolinhas .bl03E,
+#i04D:checked ~ .bolinhas .bl05D,
+#i04E:checked ~ .bolinhas .bl05D,
+#i04D:checked ~ .bolinhas .bl06D,
+#i04E:checked ~ .bolinhas .bl06D{display:block;}
+
+
+#i05E:checked ~ .conteudo .i05{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i05E:checked ~ .conteudo .i06{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+
+#i05D:checked ~ .conteudo .i05{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i05D:checked ~ .conteudo .i04{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;} 
+
+#i05D:checked ~ .setasE .lb04,
+#i05E:checked ~ .setasE .lb04{display:block;} 
+
+#i05D:checked ~ .setasD .lb06,
+#i05E:checked ~ .setasD .lb06{display:block;}
+
+#i05D:checked ~ .bolinhas .bl05,
+#i05E:checked ~ .bolinhas .bl05,
+#i05D:checked ~ .bolinhas .bl01E,
+#i05E:checked ~ .bolinhas .bl01E,
+#i05D:checked ~ .bolinhas .bl02E,
+#i05E:checked ~ .bolinhas .bl02E,
+#i05D:checked ~ .bolinhas .bl03E,
+#i05E:checked ~ .bolinhas .bl03E,
+#i05D:checked ~ .bolinhas .bl04E,
+#i05E:checked ~ .bolinhas .bl04E,
+#i05D:checked ~ .bolinhas .bl06D,
+#i05E:checked ~ .bolinhas .bl06D{display:block;}
+
+
+
+#i06E:checked ~ .conteudo .i06{animation-name: entraE;animation-duration: 1s;z-index:999;display:block;}
+#i06E:checked ~ .conteudo .i01{animation-name: saiD;animation-duration: 1s;z-index:555;display:block;}
+#i06D:checked ~ .setasD .lb01,
+#i06E:checked ~ .setasD .lb01{display:block;}
+
+#i06D:checked ~ .conteudo .i06{animation-name: entraD;animation-duration: 1s;z-index:999;display:block;}
+#i06D:checked ~ .conteudo .i05{animation-name: saiE;animation-duration: 1s;z-index:555;display:block;} 
+#i06D:checked ~ .setasE .lb05,
+#i06E:checked ~ .setasE .lb05{display:block;} 
+
+
+#i06D:checked ~ .bolinhas .bl06,
+#i06E:checked ~ .bolinhas .bl06,
+#i06D:checked ~ .bolinhas .bl01D,
+#i06E:checked ~ .bolinhas .bl01D,
+#i06D:checked ~ .bolinhas .bl02E,
+#i06E:checked ~ .bolinhas .bl02E,
+#i06D:checked ~ .bolinhas .bl03E,
+#i06E:checked ~ .bolinhas .bl03E,
+#i06D:checked ~ .bolinhas .bl04E,
+#i06E:checked ~ .bolinhas .bl04E,
+#i06D:checked ~ .bolinhas .bl05E,
+#i06E:checked ~ .bolinhas .bl05E{display:block;}

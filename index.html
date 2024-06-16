@@ -111,65 +111,70 @@
 
 <section class="carrossel">
 
-    <h2 class="CarrosselTitulo">Os queridinhos!</h2>
-    <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="Espantalho.jpg" alt="Espantalho"></div>
-      <div class="swiper-slide"><img src="cep2carrossel.jpg" alt="ginásio"></div>
-      <div class="swiper-slide"><img src="cep3carrossel.jpg" alt="armários"></div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-
-</section>
-
-
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-<script>
-  /* paste this line in verbatim */
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  /* customize formbutton below*/     
-  formbutton("create", {
-    action: "https://formspree.io/f/xdoradoz",
-    title: "Como podemos ajudar?",
-    fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
-        name: "email",
-        required: true,
-        placeholder: "seu@email.com"
-      },
-      {
-        type: "textarea",
-        label: "Mensagem:",
-        name: "message",
-        placeholder: "Sua dúvida",
-      },
-      { type: "Enviar" }      
-    ],
-    styles: {
-      title: {
-        backgroundColor: "#212121"
-      },
-      button: {
-        backgroundColor: "black"
-      }
-    }
-  });
-</script>
+    <div id="bloco">
+        <input type="radio" name="carrosel" id="i01D" checked />
+        <input type="radio" name="carrosel" id="i01E" />
+        <input type="radio" name="carrosel" id="i02D" />
+        <input type="radio" name="carrosel" id="i02E" />
+        <input type="radio" name="carrosel" id="i03D" />
+        <input type="radio" name="carrosel" id="i03E" />
+        <input type="radio" name="carrosel" id="i04D" /> 
+        <input type="radio" name="carrosel" id="i04E" />  
+        <input type="radio" name="carrosel" id="i05D" /> 
+        <input type="radio" name="carrosel" id="i05E" /> 
+        <input type="radio" name="carrosel" id="i06D" /> 
+        <input type="radio" name="carrosel" id="i06E" />
+      
+      
+        <div class="setasE">
+          <label for="i01E" class="lb01"> &#x2039; </label>
+          <label for="i02E" class="lb02"> &#x2039; </label>
+          <label for="i03E" class="lb03"> &#x2039; </label>
+          <label for="i04E" class="lb04"> &#x2039; </label>
+          <label for="i05E" class="lb05"> &#x2039; </label>  
+          <label for="i06E" class="lb06"> &#x2039; </label>  
+      
+        </div>
+        <div class="conteudo">
+          <div class="i01">01</div>
+          <div class="i02">02</div>
+          <div class="i03">03</div>
+          <div class="i04">04</div> 
+          <div class="i05">05</div> 
+          <div class="i06">06</div>  
+      
+        </div>
+        <div class="setasD">
+          <label for="i01D" class="lb01"> &#x203a; </label>
+          <label for="i02D" class="lb02"> &#x203a; </label>
+          <label for="i03D" class="lb03"> &#x203a; </label>
+          <label for="i04D" class="lb04"> &#x203a; </label> 
+          <label for="i05D" class="lb05"> &#x203a; </label>  
+          <label for="i06D" class="lb06"> &#x203a; </label> 
+        </div>
+        <div class="bolinhas">
+          <label for="i01E" class="bl01E"></label>
+          <label for="i02E" class="bl02E"></label>
+          <label for="i03E" class="bl03E"></label>
+          <label for="i04E" class="bl04E"></label> 
+          <label for="i05E" class="bl05E"></label> 
+          <label for="i06E" class="bl06E"></label> 
+      
+          <label for="i01D" class="bl01D"></label>
+          <label for="i02D" class="bl02D"></label>
+          <label for="i03D" class="bl03D"></label>
+          <label for="i04D" class="bl04D"></label> 
+          <label for="i05D" class="bl05D"></label> 
+          <label for="i06D" class="bl06D"></label> 
+      
+          <div class="bl01"></div>
+          <div class="bl02"></div>
+          <div class="bl03"></div>
+          <div class="bl04"></div> 
+          <div class="bl05"></div> 
+          <div class="bl06"></div> 
+        </div>
+      </div>
 
     <footer class="roda-pé">
         <img class="roda-pé-imagem" src="logoMAAD.png" alt="Logo MAAD">
