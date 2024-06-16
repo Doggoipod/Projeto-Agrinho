@@ -164,8 +164,8 @@
  }
  
  .cabeçalho {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
@@ -234,7 +234,7 @@
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 25px 0;
-    background: whitesmoke;
+    background: rgb(219, 219, 219);
  }
  
  .produtos-div {
