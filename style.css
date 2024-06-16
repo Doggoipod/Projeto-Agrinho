@@ -31,12 +31,10 @@
     font-size: 20px;
  }
  
- .cabeçalho-MAAD {
- 
-    width: 6.5%;
- }
- 
- 
+.título-da-página{
+text-align: center;
+color: white;
+}
  .corpo {
     background-color: #212121;
     color: white;
