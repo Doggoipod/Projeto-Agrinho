@@ -220,7 +220,7 @@
     padding: 24px 0px;
  }
  
- .alunos-fotos {
+ .produtos-fotos {
     width: 120px;
  }
  
@@ -228,7 +228,7 @@
     width: 24px;
  }
  
- .quem-somos {
+ .produtos {
     font-family: 'Ubuntu', sans-serif;
     background-color: whitesmoke;
     color: rgb(0, 0, 0);
@@ -237,12 +237,12 @@
     background: whitesmoke;
  }
  
- .alunos-div {
+ .produtos-div {
     text-align: center;
     padding: 50px 0;
  }
  
- .alunos-todos {
+ .produtos-todos {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
  
