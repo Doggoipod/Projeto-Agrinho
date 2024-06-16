@@ -93,12 +93,12 @@
  }
  
  .roda-pé {
-    background-color: black;
+    background-color: #244F31;
     text-align: center;
  }
  
  .roda-pé-imagem {
-    height: 70px;
+    height: 50px;
     padding: 12px 0;
  }
  
@@ -130,7 +130,7 @@
  .lista-menu,
  .lista-menu__item {
     padding: 1em;
-    background-color: black;
+    background-color: white;
  }
  
  .CarrosselTitulo {
