@@ -3,7 +3,7 @@ body {
 	background: #C3E6F3 no-repeat center center fixed;
 	margin: 0 auto;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
-	/* IE Fallback */
+
 	background: #c3e6f4;
 	width: 100%;
 	height: 100%;
@@ -73,7 +73,6 @@ body {
 
 
 
-/* CSS for Credit Card Payment form */
 .credit-card-box .panel-title {
     display: inline;
     font-weight: bold;
@@ -98,7 +97,7 @@ body {
 .credit-card-box label {
     display: block;
 }
-/* The old "center div vertically" hack */
+
 .credit-card-box .display-table {
     display: table;
 }
