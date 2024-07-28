@@ -237,11 +237,16 @@ color: white;
  
  .produtos-div {
 
-    padding: 50px 0;
+    max-width: 500px;
  }
  
+ .produtos-div h2 {
+    margin-top: 0;
+ }
  .produtos-todos {
-    display: grid;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
 
  
  }
