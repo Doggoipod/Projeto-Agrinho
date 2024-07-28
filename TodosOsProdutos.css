@@ -235,9 +235,16 @@ color: white;
     background: rgb(219, 219, 219);
  }
  
+ .produtos-fotos {
+    max-width: 150px;
+    margin-right: 20px;
+
+ }
+
  .produtos-div {
 
-    max-width: 500px;
+    max-width: calc(100%  -  170px);
+
  }
  
  .produtos-div h2 {
