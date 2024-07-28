@@ -1,117 +1,337 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.cabecalho {
+ }
+ 
+ .cabeçalho {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.cabecalho-imagem {
-    width: 50px;
-    height: auto;
-}
-
-.menu {
-    position: relative;
-}
-
-.menu-icon {
-    display: none;
-}
-
-.menu-lista {
-    list-style: none;
-    display: flex;
-}
-
-.menu-lista li {
-    margin: 0 15px;
-}
-
-.menu-lista li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.produtos {
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.produtos-titulo {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.produtos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.produto {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.produto img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.nome-do-produto {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.descricao-do-produto {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.preco-do-produto {
-    font-size: 16px;
-    color: green;
-    margin-bottom: 15px;
-}
-
-.btn-comprar {
-    background-color: #1a3923;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.btn-comprar:hover {
-    background-color: #214e2f;
-}
-
-.rodape {
-    background-color: black;
-    color: white;
-    text-align: center;
+    justify-content: space-around;
     padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+ 
+ }
+ 
+ .body {
+    font-family: 'Ubuntu', sans-serif;
+ 
+ }
+ 
+ .cabeçalho-imagem {
+    width: 9%;
+    height: 9%;
+ }
+ 
+ .cabeçalho-lista-item {
+ 
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;
+ }
+ 
+.título-da-página{
+text-align: center;
+color: white;
 }
+ .corpo {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+ 
+ }
+ 
+ .logo-exatas {
+    width: 20%;
+ }
+ 
+ .corpo-div-conteudo {
+    width: 35%;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .corpo-titulo {
+    padding: 24px 0px;
+ }
+ 
+ .alunos-fotos {
+    width: 120px;
+ }
+ 
+ .aluno-icone {
+    width: 24px;
+ }
+ 
+ .quem-somos {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background: #181818;
+ }
+ 
+ .alunos-div {
+    text-align: center;
+    padding: 50px 0;
+ }
+ 
+ .alunos-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ 
+ }
+ 
+ .estudante-isolado {
+    text-align: center;
+ }
+ 
+ .roda-pé {
+    background-color: black;
+    text-align: center;
+ }
+ 
+ .roda-pé-imagem {
+    height: 70px;
+    padding: 12px 0;
+ }
+ 
+ .lista-menu__item a {
+    color: #fffdfd;
+    text-decoration: none;
+ }
+ 
+ .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+ }
+ 
+ .container__botao:checked ~.lista-menu {
+    display: block;
+ }
+ 
+ .container__botao {
+    display: none;
+ }
+ 
+ .botao-MENU {
+    width: 50px;
+    padding: 55px 0;
+    cursor: pointer;
+ }
+ 
+ .lista-menu,
+ .lista-menu__item {
+    padding: 1em;
+    background-color: black;
+ }
+ 
+ .CarrosselTitulo {
+    color: white;
+    background-color: #212121;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+ }
+ 
+ .swiper-slide img {
+    width: 100%;
+ }
+ 
+ .swiper-button-prev, 
+ .swiper-button-next {
+    display: none;
+ }
+ 
+ .cu {
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 gray;
+    cursor: pointer;
+    
+ }* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cabeçalho {
+    background-color: #214e2f;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+ 
+ }
+ 
+ .body {
+    font-family: 'Ubuntu', sans-serif;
+ 
+ }
+ 
+ .cabeçalho-imagem {
+    width: 9%;
+    height: 9%;
+ }
+ 
+ .cabeçalho-lista-item {
+ 
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;
+ }
+ 
+ .cabeçalho-MAAD {
+ 
+    width: 6.5%;
+ }
+ 
+ 
+ .corpo {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+ 
+ }
+ 
+ .logo-empresa {
+    width: 15%;
+ }
+ 
+ .corpo-div-conteudo {
+    width: 35%;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .corpo-titulo {
+    padding: 24px 0px;
+ }
+ 
+ .produtos-fotos {
+    width: 250px;
+ }
+ 
+ .aluno-icone {
+    width: 24px;
+ }
+ 
+ .produtos {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(219, 219, 219);
+ }
+ 
+ .produtos-div {
+    text-align: center;
+    padding: 50px 0;
+ }
+ 
+ .produtos-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ 
+ }
+ 
 
-.rodape img {
-    height: 50px;
-}
+ 
+ .roda-pé {
+    background-color: #214e2f;
+    text-align: center;
+ }
+ 
+ .roda-pé-imagem {
+    height: 70px;
+    padding: 12px 0;
+ }
+ 
+ .lista-menu__item a {
+    color: #000000;
+    text-decoration: none;
+ }
+ 
+ .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+ }
+ 
+ .container__botao:checked ~.lista-menu {
+    display: block;
+ }
+ 
+ .container__botao {
+    display: none;
+ }
+ 
+ .botao-MENU {
+    width: 50px;
+    padding: 55px 0;
+    cursor: pointer;
+ }
+ 
+ .lista-menu,
+ .lista-menu__item {
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+ }
+
+ button {
+    margin: 20px;
+ }
+
+ .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  .btn-2 {
+    background: rgb(8, 133, 3);
+    background: linear-gradient(0deg, rgb(6, 114, 3) 0%, rgb(6, 97, 2) 100%);
+    border: none;
+  }
+
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
