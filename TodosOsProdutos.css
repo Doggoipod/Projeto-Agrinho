@@ -86,6 +86,12 @@ color: white;
  
  }
  
+ .produtos2-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ 
+ }
+
  .estudante-isolado {
     text-align: center;
  }
