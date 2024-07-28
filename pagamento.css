@@ -10,11 +10,8 @@ body {
 }
 
 .cartão {
-    
-        max-width:5px;
-        max-height:5px;
-        width: auto;
-        height: auto;
+    height: 70px;
+    padding: 12px 0;
 }
 
 .blueButton {
