@@ -359,8 +359,13 @@ color: white;
 }
 
 .corpo-div-conteudo {
+   display: flex;
+   justify-content: space-around;
+   padding: 10px 0;
+   font-family: 'Ubuntu', sans-serif;
+   position: relative;
+   align-items: center;
    text-align: center;
-   padding: 7px 150px
 }
 
   }
