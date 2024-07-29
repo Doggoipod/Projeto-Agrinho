@@ -343,6 +343,10 @@ color: white;
    }
    .produtos-fotos {
       width: 90px;
-      display: block;
    }
+
+.produtos-div {
+   display: block;
+}
+
   }
