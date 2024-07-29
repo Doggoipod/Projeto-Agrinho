@@ -359,7 +359,7 @@ color: white;
 }
 
 .corpo-div-conteudo {
-   display: flex;
+   display: block;
    justify-content: space-around;
    padding: 10px 0;
    font-family: 'Ubuntu', sans-serif;
